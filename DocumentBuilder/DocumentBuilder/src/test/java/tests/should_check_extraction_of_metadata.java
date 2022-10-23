@@ -18,7 +18,7 @@ public class should_check_extraction_of_metadata {
     public void testExtraction(){
         String text;
         try {
-            text = new UrlReader("https://www.gutenberg.org/files/69199/69199-0.txt").getContentUrl();
+            text = new UrlReader("https://www.gutenberg.org/files/69198/69198-0.txt").getContentUrl();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -36,10 +36,10 @@ public class should_check_extraction_of_metadata {
         Assertions.assertThat(metadata.getLanguage()).isEqualTo("English");
         SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
         try {
-            Assertions.assertThat(metadata.getAuthors()).isEqualTo(formato.parse("21/11/2022"));
+            Assertions.assertThat(metadata.getReleaseDate()).isEqualTo(formato.parse("21/10/2022"));
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }
-        Assertions.assertThat(metadata.getAuthors()).isNull();
+        Assertions.assertThat(metadata.getPostingDate()).isNull();
     }
 }

@@ -12,6 +12,9 @@ public class Metadata {
     private Date postingDate;
     private String language;
 
+    public Metadata(){
+        this.authors = new ArrayList<String>();
+    }
     public int getId() {
         return id;
     }
@@ -41,8 +44,8 @@ public class Metadata {
         return this;
     }
 
-    public Metadata setAuthors(ArrayList<String> authors) {
-        this.authors = authors;
+    public Metadata addAuthors(String author) {
+        this.authors.add(author);
         return this;
     }
 
