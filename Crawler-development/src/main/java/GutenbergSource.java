@@ -4,12 +4,14 @@ import java.io.IOException;
 public class GutenbergSource implements Source {
 
     @Override
-    public String bookDownloader(int numberOfBook) throws IOException {
-        String url = "https://www.gutenberg.org/files/"+numberOfBook+"/"+numberOfBook+"-0.txt";
-        //String url = "https://www.gutenberg.org/files/11/11-0.txt";
-        String text = Jsoup.connect(url)
+    public String bookLoader(int bookId) throws IOException {
+        String text = Jsoup.connect(getUrl(bookId))
                 .execute()
                 .body();
         return text;
+    }
+
+    public String getUrl(int bookId) {
+        return "https://www.gutenberg.org/files/"+bookId+"/"+bookId+"-0.txt";
     }
 }
