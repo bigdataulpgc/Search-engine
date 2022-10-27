@@ -1,14 +1,12 @@
 package tests;
 
-import builder.Document;
 import builder.Metadata;
-import builder.MetadataExtractor;
+import builder.MetadataExtractorGutenberg;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import utils.UrlReader;
 
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
@@ -26,7 +24,7 @@ public class should_check_extraction_of_metadata {
         Metadata metadata;
 
         try {
-            metadata = new MetadataExtractor(text).getMetadata();
+            metadata = new MetadataExtractorGutenberg(text).getMetadata();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
