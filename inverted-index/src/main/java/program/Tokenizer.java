@@ -7,12 +7,9 @@ public class Tokenizer {
         String punctuation = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
         for(int punct=0; punct<punctuation.length(); punct++){
-
             line = line.replace(String.valueOf(punctuation.charAt(punct)), "");
         }
 
-        String[] line2 = line.strip().toLowerCase().split(" ");
-
-        return line2;
+        return line.strip().toLowerCase().split(" ");
     }
 }
