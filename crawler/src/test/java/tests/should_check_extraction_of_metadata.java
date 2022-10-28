@@ -1,10 +1,10 @@
 package tests;
 
-import crawler.builder.Metadata;
-import crawler.builder.document_builder.GutenbergMetadataExtractor;
+import classes.Metadata;
+import document_builder.GutenbergMetadataExtractor;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
-import crawler.builder.webconnection.GutenbergSource;
+import webconnection.GutenbergSource;
 
 import java.io.IOException;
 import java.text.ParseException;

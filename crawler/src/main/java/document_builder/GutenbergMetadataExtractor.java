@@ -1,5 +1,7 @@
 package document_builder;
 
+import classes.Metadata;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.text.DateFormat;

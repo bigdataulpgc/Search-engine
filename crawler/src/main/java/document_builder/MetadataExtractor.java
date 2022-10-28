@@ -1,5 +1,6 @@
 package document_builder;
 
+import classes.Metadata;
 import java.text.ParseException;
 
 public interface MetadataExtractor {

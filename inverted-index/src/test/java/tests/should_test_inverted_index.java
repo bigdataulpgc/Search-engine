@@ -1,10 +1,10 @@
 package tests;
 
-import crawler.builder.Document;
-import inverted_index.Controller;
-import inverted_index.DocumentDeserialize;
-import inverted_index.InvertedIndex;
+import classes.Document;
 import org.junit.Test;
+import program.Controller;
+import program.DocumentDeserialize;
+import program.InvertedIndex;
 
 public class should_test_inverted_index {
 

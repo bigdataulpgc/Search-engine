@@ -1,6 +1,6 @@
 package tests;
 
-import crawler.builder.document_builder.GutenbergDocumentBuilder;
+import document_builder.GutenbergDocumentBuilder;
 import org.junit.Test;
 import utils.UrlReader;
 

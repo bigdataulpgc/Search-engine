@@ -1,5 +1,8 @@
 package document_builder;
 
+import classes.Document;
+import classes.Metadata;
+
 public class GutenbergDocumentBuilder implements DocumentBuilder{
 
     public String[] arrayText;

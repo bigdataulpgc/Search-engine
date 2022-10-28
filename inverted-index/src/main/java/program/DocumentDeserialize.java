@@ -1,6 +1,6 @@
 package program;
 
-import crawler.builder.Document;
+import classes.Document;
 
 public class DocumentDeserialize {
     public Document[] getDocuments() {
