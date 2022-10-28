@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Crawler-development.iml" filepath="$PROJECT_DIR$/.idea/Crawler-development.iml" />
-      <module fileurl="file://$PROJECT_DIR$/inverted_index.iml" filepath="$PROJECT_DIR$/inverted_index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Search-engine.iml" filepath="$PROJECT_DIR$/.idea/Search-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler/crawler.iml" filepath="$PROJECT_DIR$/crawler/crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inverted-index/inverted-index.iml" filepath="$PROJECT_DIR$/inverted-index/inverted-index.iml" />
     </modules>
   </component>
 </project>

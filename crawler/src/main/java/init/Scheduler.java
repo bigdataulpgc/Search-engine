@@ -1,4 +1,4 @@
-package Init;
+package init;
 import java.util.Timer;
 
 public class Scheduler {

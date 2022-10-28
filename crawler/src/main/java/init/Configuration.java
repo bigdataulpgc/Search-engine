@@ -1,3 +1,3 @@
-package Init;
+package init;
 public class Configuration {
 }
