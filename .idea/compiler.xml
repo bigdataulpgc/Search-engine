@@ -14,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Crawler-development" target="11" />
       <module name="search-engine" target="11" />
     </bytecodeTargetLevel>
   </component>
