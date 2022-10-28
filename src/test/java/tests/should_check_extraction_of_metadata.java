@@ -4,7 +4,7 @@ import builder.Metadata;
 import builder.MetadataExtractorGutenberg;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
-import utils.UrlReader;
+import webconnection.GutenbergSource;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -16,7 +16,7 @@ public class should_check_extraction_of_metadata {
     public void testExtraction(){
         String text;
         try {
-            text = new UrlReader("https://www.gutenberg.org/files/69198/69198-0.txt").getContentUrl();
+            text = new GutenbergSource().bookLoader(10);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

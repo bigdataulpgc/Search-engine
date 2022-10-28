@@ -1,3 +1,4 @@
+package webconnection;
 import org.jsoup.Jsoup;
 import java.io.IOException;
 

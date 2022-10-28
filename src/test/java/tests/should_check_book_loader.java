@@ -1,10 +1,10 @@
 package tests;
-
+import webconnection.GutenbergSource;
 import org.junit.Test;
 import java.io.IOException;
 
 
-public class BookLoaderTest {
+public class should_check_book_loader {
 
     int BOOK_ID = 1;
     int[] BOOKS_IDS = {1,10};

@@ -1,3 +1,4 @@
+package webconnection;
 import java.io.IOException;
 
 public interface Source {
