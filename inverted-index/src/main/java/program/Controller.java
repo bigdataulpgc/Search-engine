@@ -1,7 +1,6 @@
 package program;
 
 import classes.Document;
-
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
@@ -17,9 +16,7 @@ public class Controller {
             inverted_index_builder.build(document);
         }
 
-        new InvertedIndexStore(inverted_index).store();
-
-
+        //new InvertedIndexStore(inverted_index).store();
 
     }
 }

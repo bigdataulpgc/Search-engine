@@ -28,10 +28,8 @@ public class InvertedIndexBuilder {
             n_line += 1;
             list_words = tokenizer.tokenize(line);
             for (String word : list_words) {
-
                 //if (!stop_words.contain(word) & word.length() != 0) {
-                //    invertedIndex.addWord(word, document.getMetadata().getId(), n_line);
-                //}
+                    invertedIndex.addWord(word, String.valueOf(document.getMetadata().getId()), n_line);
 
             }
             line = br.readLine();
