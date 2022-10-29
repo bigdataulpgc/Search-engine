@@ -14,6 +14,6 @@ public class should_test_inverted_index {
         InvertedIndex invertedIndex = new InvertedIndex();
         Document[] books = new DocumentDeserialize().getDocuments();
         Controller controller = new Controller();
-        controller.invertedIndexOf(invertedIndex, books);
+        //controller.invertedIndexOf(invertedIndex, books);
     }
 }
