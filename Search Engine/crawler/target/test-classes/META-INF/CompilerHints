@@ -1,0 +1,9 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,benchmarking/crawler_benchmark.book_loader_10_book
+inline,benchmarking/crawler_benchmark.book_loader_1_book
+inline,benchmarking/crawler_benchmark.book_loader_20_book
+inline,benchmarking/crawler_benchmark.book_loader_5_book
