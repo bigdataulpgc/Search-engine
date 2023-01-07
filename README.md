@@ -2,7 +2,7 @@
 
 This project deals with the implementation of a search engine. 
 
-You can learn about the project in depth at [LINK TO PAPER](https://github.com/bigdataulpgc/Search-engine/blob/main/Crawler_Paper.pdf).
+You can learn about the project in depth at [LINK TO PAPER](https://github.com/bigdataulpgc/Search-engine/blob/main/Search_Engine_Paper.pdf).
 
 The objectives to be achieved are:
 
