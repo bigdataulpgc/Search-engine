@@ -1,0 +1,12 @@
+documents\FileReader.class
+inverted_index\implementation\InvertedIndexBuilder.class
+documents\IndexedId.class
+documents\JsonMetadataDeserializer.class
+controller\Controller.class
+inverted_index\implementation\InvertedIndex.class
+documents\DocumentDeserialize.class
+inverted_index\implementation\MapInvertedIndex.class
+inverted_index\storage\InvertedIndexStore.class
+controller\InvertedIndexTask.class
+controller\Main.class
+documents\DocumentBuilder.class

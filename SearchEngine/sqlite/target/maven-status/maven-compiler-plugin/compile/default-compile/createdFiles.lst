@@ -1,0 +1,14 @@
+controller\SQLiteTask.class
+SQLite\SQLiteMetadataProccesor$1.class
+SQLite\operations\SQLiteMetadataCreateTable.class
+SQLite\SQLiteMetadataProccesor$Processor.class
+SQLite\operations\SQLiteDBCreate.class
+SQLite\SQLiteMetadataManager.class
+controller\InsertedId.class
+SQLite\operations\SQLiteDBInsert.class
+SQLite\operations\SQLiteMetadataRead.class
+SQLite\operations\SQLiteMetadataInsertTable.class
+SQLite\SQLiteMetadataProccesor.class
+SQLite\operations\SQLiteDBRead.class
+controller\Main.class
+SQLite\SQLiteDBManager.class

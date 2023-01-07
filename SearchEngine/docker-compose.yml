@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+
+  api:
+
+    build: ./api
+    image: api
+    volumes:
+      - ./disk:/home/search-engine/disk
+    ports:
+      - 4567:4567
+
+  crawler:
+
+    build: ./crawler
+    image: crawler
+    volumes:
+      - ./disk:/home/search-engine/disk
+
+  inverted-index:
+
+    build: ./inverted-index
+    image: inverted-index
+    volumes:
+      - ./disk:/home/search-engine/disk
+
+  sqlite:
+
+    build: ./sqlite
+    image: sqlite
+    volumes:
+      - ./disk:/home/search-engine/disk
+
+
+
+
+
+
+

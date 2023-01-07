@@ -1,4 +1,0 @@
-JMH S 30 benchmarking.crawler_benchmark S 72 benchmarking.jmh_generated.crawler_benchmark_book_loader_10_book_jmhTest S 19 book_loader_10_book S 11 AverageTime E A 1 1 1 E I 1 3 T 3 1 s E I 1 3 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
-JMH S 30 benchmarking.crawler_benchmark S 71 benchmarking.jmh_generated.crawler_benchmark_book_loader_1_book_jmhTest S 18 book_loader_1_book S 11 AverageTime E A 1 1 1 E I 1 3 T 3 1 s E I 1 3 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
-JMH S 30 benchmarking.crawler_benchmark S 72 benchmarking.jmh_generated.crawler_benchmark_book_loader_20_book_jmhTest S 19 book_loader_20_book S 11 AverageTime E A 1 1 1 E I 1 3 T 3 1 s E I 1 3 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
-JMH S 30 benchmarking.crawler_benchmark S 71 benchmarking.jmh_generated.crawler_benchmark_book_loader_5_book_jmhTest S 18 book_loader_5_book S 11 AverageTime E A 1 1 1 E I 1 3 T 3 1 s E I 1 3 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
