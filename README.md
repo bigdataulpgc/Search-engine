@@ -16,7 +16,7 @@ The objectives to be achieved are:
 
 ## PROJECT STATUS:
 
-At the moment we have realized the crawler module and inverted index.
+At the moment we have realized the crawler module, inverted index and query engine.
 
 ## DEVELOPERS:
 
